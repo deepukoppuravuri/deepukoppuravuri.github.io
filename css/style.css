@@ -365,7 +365,7 @@
 		top:10;
 	}
 	.background_image button{
-		width: 25%;
+		width: 35%;
 		font-size: 14px;
 		text-align: center;
 		position: relative;
@@ -509,7 +509,7 @@
 		margin-top: 35px;
 	}
 	.background_image button{
-		width: 25%;
+		width: 35%;
 		font-size: 14px;
 		text-align: center;
 		position: relative;
@@ -565,4 +565,10 @@
 	text-align: center;
 }
 	
+}
+
+@media (max-width: 370px){
+	.footer_btn .email_btn{
+		width: auto;
+	}
 }
