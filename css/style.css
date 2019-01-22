@@ -1,0 +1,568 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.top_nav{
+	width: 100%;
+	background: #f4f6f8;
+	float:left;
+}
+
+.subscribe{
+	float: right;
+	
+}
+.subscribe .lung{
+	margin-right: 40px;
+}
+.subscribe .icons{
+	width: 20px;
+	height: 20px;
+
+}
+.icon-sub{
+	width: 100%;
+	float: left;
+}
+.logo img{
+	width: 100%;
+}
+.icon-details{
+	width: 100%;
+	float: left;
+}
+.icon-left{
+	width: 10%;
+	float: left;
+}
+.icon-right{
+	width: 80%;
+	float: right;
+	text-align: left;
+	margin-top: 7px;
+}
+.icon-right span{
+	font-size: 20px;
+	font-weight: 700;
+
+}
+.icon-right .red {
+	color: red;
+}
+.icon-left img{
+	width: 45px;
+	height: 45px;
+	margin-top: 14px;
+	margin-right: 10px;
+
+}
+.toggle{
+	width: 25px;
+	height: 25px;
+	display: none;
+}
+.nav-menu{
+	background: #de2b29;
+	width: 100%;
+	float: left;
+} 
+.nav-bar ul{
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	width: 100%;
+}
+.nav-bar li{
+	list-style-type: none;
+	
+	display: inline-block;
+	padding: 16px 24px;
+}
+.nav-bar li:first-child{
+	padding-left: 0px;
+}
+.nav-bar li a{
+	text-decoration: none;
+	color: #fff;
+	font-weight: 600;
+	font-size: 16px;
+
+}
+.nav-bar{
+	width: 90%;
+	
+}
+.nav-bar li img{
+	width: 40px;
+	height: 40px;
+}
+.search-bar{
+	width: 10%;
+	float: right;
+	margin-top: 10px;
+}
+.search-bar img{
+	width: 40px;
+	height: 40px;
+	float: right;
+}
+.background_image{
+	width: 100%;
+	float: left;
+	height: 600px;
+	background: url("../images/bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+.background_image h2{
+	position: absolute;
+	top: 180px;
+	font-size: 42px;
+	font-weight: 600;
+	width: 60%;
+	text-align: left;
+	color: #fff;
+	z-index: 100;
+}
+.background_image p{
+	position: absolute;
+	top: 350px;
+	font-size: 16spx;
+	color: #fff;
+	z-index: 100;
+}
+.background_image button{
+	position: absolute;
+	top: 400px;
+	background-color: #fff;
+	color: #000000;
+	border-radius: 30px;
+	width: 145px;
+	height: 40px;
+	border: 1px soild #fff;
+	font-weight: 600;
+	font-size: 14px;
+	z-index: 100;
+}
+.overlay{
+	background-color: rgba(0,0,0,0.6);
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 99;
+	width: 100%;
+	height: 100%;
+}
+.image-overlay{
+	position: absolute;
+	z-index: 100;
+}
+.about_millicent {
+	float: left;
+	width: 100%;
+	background: #f4f6f8;
+}
+.about-heading {
+	margin-top: 20px;
+}
+.about-heading h2{
+	text-align: center;
+}
+.about_content{
+ margin-top: 25px;
+
+}
+.about_content img{
+	width: 100%;
+}
+.about_millicent .red{
+	color: red;
+}
+.about_millicent p{
+	font-size: 15px;
+	text-align: justify;
+}
+.quote_row{
+	margin-top: 25px;
+}
+.quote_section{
+	float: left;
+	width: 100%;
+	background:#de2b29;
+	
+
+}
+.quote_section h2{
+	font-size: 19px;
+	color: #fff;
+}
+.quote_section p{
+	color: #fff;
+	margin-bottom: 20px;
+}
+.quote_section button{
+	background-color: #fff;
+	color: #000000;
+	width: 140px;
+	height: 40px;
+	border-radius: 50px;
+	float: right;
+	font-weight: 600;
+	font-size: 14px;
+	margin-top: 6px;
+}
+.footer{
+	float: left;
+	width: 100%;
+	background: #0f1926;
+
+}
+.footer_area{
+	margin-top: 30px;
+}
+.footer_icons ul li{
+	list-style-type: none;
+	display: inline-block;
+}
+.footer_icons ul{
+	margin-top: 30px;
+}
+.copyright p{
+	color: #3d4855;
+}
+.copyright{
+	margin-top: 0px;
+	margin-bottom: 50px;
+}
+.mainmenu{
+	color: #fff;
+}
+ .left-items ul li,.right-items ul li{
+	list-style-type: none;
+	text-decoration: none;
+	padding: 5px;
+}
+ .menu-items {
+	margin-top: 25px;
+ }
+.left-items a,.right-items a{
+	text-decoration: none;
+	color: #808c9b;
+}
+.left-items ul{
+	float: left;
+}
+.right-items ul{
+	margin-left: 15px;
+}
+.our_newslatter{
+	color: #fff;
+}
+.footer_btn{
+	margin-top: 30px; 
+}
+.footer_btn .email_btn{
+	width: 240px;
+	height: 35px;
+	background: #0f1926;
+	border: 1px solid #3d4855;
+	padding-left: 15px;
+	color: #3d4855;
+}
+.footer_btn .sub_btn{
+	width: 100px;
+	height: 35px;
+	margin-left: -4px;
+	background: #f95957;
+	border: 1px solid #3d4855;
+	border-left: none;
+	color: #0f1926;
+	font-weight: 500;
+}
+.footer_content p{
+	color: #333d4a;
+}
+.footer_content{
+	margin-top: 35px;
+}
+.mainmenu,.our_newslatter{
+	margin-top: 10px;
+}
+
+
+/*---- Media Quries----*/
+@media (max-width: 575px){
+	.welcome{
+		display: block;
+		text-align: center;
+	}
+	.subscribe{
+		float: none;
+		text-align: center;
+		width: 100%;
+	}
+	.subscribe .lung{
+		padding:5px;
+	}
+	.subscribe .icons{
+		width: 40px;
+		height: 40px;
+		padding: 5px;
+	}
+/*----Second-Secti0n---*/
+	.logo img{
+		width: 100%;
+		padding: 0px 50px;
+	}
+	.icon-left{
+		display: block;
+		text-align: center;
+		width: 50%;
+	}	
+	.icon-right{
+		display: block;
+		text-align: center;
+		width: 50%;
+	}
+/*----third section-----*/
+	.nav-menu ul{
+		display: none;
+		width: 100%;
+	}
+	.nav-menu ul li{
+		display: block;
+		text-align: center;
+	}
+	.nav-bar{
+		width: 100%;
+	}
+	.search-bar{
+		display: none;
+	}
+/*----For background---*/
+	.background_image{
+		width: 100%;
+		height: 300px;
+	}
+	.background_image h2{
+		width: 100%;
+		font-size: 24px;
+		text-align: left;
+		position: relative;
+		z-index: 100;
+		top:10;
+		float: left;
+
+	}
+	.background_image p{
+		width: 100%;
+		font-size: 14px;
+		text-align: left;
+		position: relative;
+		z-index: 100;
+		top:10;
+	}
+	.background_image button{
+		width: 25%;
+		font-size: 14px;
+		text-align: center;
+		position: relative;
+		z-index: 100;
+		top:20;
+	}	
+/*----sixth section----*/
+	.quote_row p{
+		margin-bottom: 5px;
+	}
+	.quote_row button{
+		background-color: #fff;
+		color: #000000;
+		width: 120px;
+		height: 35px;
+		border-radius: 50px;
+		float: right;
+		font-weight: 600;
+		font-size: 14px;
+		margin-bottom: 15px;
+	}
+	/*----7th section*/
+	.footer_logo{
+		width: 100%;
+		text-align: center;
+	}
+	.footer_logo img{
+		width: 75%;
+	}
+	.footer_icons ul{
+		text-align: center;
+		margin-top: 0px;
+	}
+	.footer_icons ul li{
+		padding: 10px;
+	}
+	.mainmenu{
+		margin-top: 0px;
+		text-align: center;
+	}
+	.our_newslatter{
+		margin-top: 0px;
+		text-align: center;
+	}
+	.menu-items{
+		text-align: center;
+		margin-left: 80px;
+	}
+	.footer_btn{
+		text-align: center;
+	}
+.footer_content p{
+	text-align: center;
+}
+	
+}
+
+
+@media (max-width: 767px){
+	.welcome{
+		display: block;
+		text-align: center;
+	}
+	.subscribe{
+		float: none;
+		text-align: center;
+		width: 100%;
+	}
+	.subscribe .lung{
+		padding:5px;
+	}
+	.subscribe .icons{
+		width: 40px;
+		height: 40px;
+		padding: 5px;
+	}
+/*----Second-Secti0n---*/
+	.logo img{
+		width: 100%;
+		padding: 0px 50px;
+	}
+	.icon-left{
+		display: block;
+		
+		
+	}	
+	.icon-left img{
+		width: 30px;
+		height: 30px;
+		margin-right: 0px;
+	}
+	.icon-right{
+		display: block;
+	}
+	.icon-right span{
+		font-size: 14px
+	}
+	.icon-right p{
+		font-size: 11px
+	}
+/*----third section-----*/
+	.nav-menu ul{
+		display: none;
+		width: 100%;
+	}
+	.nav-menu ul li{
+		display: block;
+		text-align: center;
+	}
+	.nav-bar{
+		width: 100%;
+	}
+	.search-bar{
+		display: none;
+	}
+	.toggle{
+		display: block;
+	}
+/*----For background---*/
+	.background_image{
+		width: 100%;
+		height: 300px;
+	}
+	.background_image h2{
+		width: 100%;
+		font-size: 24px;
+		text-align: left;
+		position: relative;
+		z-index: 100;
+		top:auto;
+		float: left;
+
+	}
+	.background_image p{
+		width: 100%;
+		font-size: 14px;
+		text-align: left;
+		position: relative;
+		z-index: 100;
+		top:auto;
+		margin-top: 35px;
+	}
+	.background_image button{
+		width: 25%;
+		font-size: 14px;
+		text-align: center;
+		position: relative;
+		z-index: 100;
+		top:auto;
+	}	
+/*----sixth section----*/
+	.quote_row p{
+		margin-bottom: 5px;
+	}
+	.quote_row button{
+		background-color: #fff;
+		color: #000000;
+		width: 120px;
+		height: 35px;
+		border-radius: 50px;
+		float: right;
+		font-weight: 600;
+		font-size: 14px;
+		margin-bottom: 15px;
+	}
+	/*----7th section*/
+	.footer_logo{
+		width: 100%;
+		text-align: center;
+	}
+	.footer_logo img{
+		width: 75%;
+	}
+	.footer_icons ul{
+		text-align: center;
+		margin-top: 0px;
+	}
+	.footer_icons ul li{
+		padding: 10px;
+	}
+	.mainmenu{
+		margin-top: 0px;
+		text-align: center;
+	}
+	.our_newslatter{
+		margin-top: 0px;
+		text-align: center;
+	}
+	.menu-items{
+		text-align: center;
+		margin-left: 80px;
+	}
+	.footer_btn{
+		text-align: center;
+	}
+.footer_content p{
+	text-align: center;
+}
+	
+}
